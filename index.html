@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bella Laser</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Your description">
+    
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/camera.css">
+    <link rel="stylesheet" href="css/touchTouch.css">
+    <link rel="stylesheet" href="css/style.css">
+
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery-migrate-1.1.1.js"></script>
+        <script src="js/superfish.js"></script>
+        <script src="js/jquery.mobilemenu.js"></script>
+
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/touchTouch.jquery.js"></script>
+        <script src="js/jquery.equalheights.js"></script>
+        <script src="js/camera.js"></script>
+        <!--[if (gt IE 9)|!(IE)]><!-->
+        <script src="js/jquery.mobile.customized.min.js"></script>
+        <!--<![endif]-->
+        <script src="js/jquery.ui.totop.js"></script>
+    <!--[if lt IE 8]>
+        <div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div>  
+    <![endif]-->
+  <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/ie.css">
+    <script src="assets/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+<!-- header -->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="span12">                
+<!--menu-->
+                <div class="navbar">
+                     <div class="navbar-inner"> 
+                        <div class="nav-collapse nav-collapse_ collapse">
+                            <ul class="sf-menu">
+                                <li class="active sub-menu"><a href="index.html"><span>Para ti</span></a><strong></strong>
+                                     <ul class="nav sub-menu">
+                                        <li><a href="#">Mision</a></li>
+                                            <ul class="nav sub-menu">
+                                                <li><a href="#">fresh</a></li>
+                                                <li class="last"><a href="#">archive</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="index-1.html"><span>Servicios </span></a><strong></strong></li>
+                                
+                                <li class="last"><a href="index-4.html"><span>Contact</span></a><strong></strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="brand"><a href="index.html"><img src="img/B.png" alt="Bella Laser"></a></h1>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- content -->
+<div id="content">
+    <div class="camera_wrap" id="camera_1">
+        <div data-src="img/page1_slide1.jpg">                            
+            <div class="camera_caption">
+                <div class="container">
+                    <div class="row">
+                        <div class="span10 offset8">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <h2 class="extra">Tu belleza nos importa</h2>
+                <ul class="list1 row">
+                    <li class="span3 maxheight">
+                        <span class="badge"><img src="img/flor1.png" alt=""></span>
+                        <p>Aca cuidamos su imagen y admiramos su belleza!!</p>
+                        
+                    </li>
+                    <li class="span3 maxheight">
+                        <span class="badge"><img src="img/vela.png" alt=""></span>
+                        <p>Te brindamos paz y tranquilidad para un confort agradable.</p>
+                        
+                    </li>
+                    <li class="span3 maxheight">
+                        <span class="badge"><img src="img/piedras.png" alt=""></span>
+                        <p>Fomentando siempre la paz, tanto fisica como emocional.</p>
+                        
+                    </li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer -->
+<footer>
+    <div>
+        
+    </div>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="span6 floatRight1200">
+                    
+                </div>
+                <div class="span6 floatLeft1200">
+                    <p class="privacy">BELLALASER &copy; 2022 <a href="index-5.html">Privacy policy</a></p>
+                    <!-- {%FOOTER_LINK} -->
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/bootstrap.js"></script>
+<script>
+    $(function (){
+        $('#camera_1').camera({
+            height: '52%',
+            fx: 'scrollHorz',
+            easing: 'easeOutCubic',
+            pagination: false,
+            navigation: false,
+            time: '0',
+            transPeriod: '0',
+            alignment: 'center',
+            autoAdvance: false,
+            mobileAutoAdvance: false
+        });
+
+        $('.list3>li>a')
+            .prepend('<span class="sitem_over"><strong></strong></span>')
+            .touchTouch();
+    })
+</script>
+</body>
+</html>
